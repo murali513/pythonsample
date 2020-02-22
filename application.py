@@ -11,7 +11,7 @@ import configparser
 config = configparser.ConfigParser()
 config.read('api_config.ini')
 
-# Setup logs
+# Setup logs test
 import logging
 
 logging.basicConfig(filename=config['PATH']['LOGS'], level=logging.INFO,
